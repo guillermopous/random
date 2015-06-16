@@ -1,4 +1,6 @@
 var numero=Math.random();
 
-if(numero<=0.5) console.log("El numero "+numero+" es menor que 0.5");
-else console.log("El numero "+numero+" es mayor que 0.5");
+var str=" es mayor que 0.5";
+if(numero<=0.5) str=" es menor que 0.5");
+
+console.log("El numero "+numero+str);
